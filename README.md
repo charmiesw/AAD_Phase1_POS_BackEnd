@@ -153,7 +153,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 <div align="center">
 
-#### This project is licensed under the [MIT License](LICENSE)
+#### This project is licensed under the [MIT License](https://github.com/charmiesw/AAD_Phase1_POS_BackEnd/blob/main/LICENSE)
 
 #### © 2024 All Right Reserved, Designed By [Charmie Weerapperuma](https://github.com/charmiesw)
 
