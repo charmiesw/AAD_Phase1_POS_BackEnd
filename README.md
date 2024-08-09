@@ -141,11 +141,12 @@ For detailed API documentation, please refer to the project’s Swagger UI avail
 
 This documentation provides interactive access to the following APIs and Refer to the project Documentations :
 
-- **Customer API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZm7]
-- **Item API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZm1]
-- **Order API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZgi]
-- **Order Details API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZgg]
+- **Customer API documentation URL :**  [https://documenter.getpostman.com/view/35386294/2sA3s1pXiX]
+- **Item API documentation URL :**  [https://documenter.getpostman.com/view/35386294/2sA3s3FqgC]
+- **Order API documentation URL :**  [https://documenter.getpostman.com/view/35386294/2sA3s3FqgE]
+- **Order Details API documentation URL :**  [https://documenter.getpostman.com/view/35386294/2sA3s3FqgG]
 
+You can reffer to the json formats of the postman APIs as (src/main/resources/postman)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
