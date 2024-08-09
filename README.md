@@ -1,4 +1,8 @@
-# POS SYSTEM BACKEND
+# POS SYSTEM BACKEND API
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ## Overview
 The POS System Backend is a comprehensive RESTful API built to efficiently support the various functionalities of a Point of Sale (POS) system. This backend service plays a crucial role in handling diverse aspects of the POS system, including:
