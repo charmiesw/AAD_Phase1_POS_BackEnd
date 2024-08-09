@@ -15,7 +15,6 @@ The POS System Backend is a RESTful API designed to support the operations of a 
 - [Setup Instructions](#setup-instructions)
 - [How to Use](#how-to-use)
 - [API References](#api-references)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact Information](#contact-information)
 
