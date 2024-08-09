@@ -153,8 +153,6 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 <div align="center">
 
-#### This project is licensed under the [MIT License](LICENSE)
-
 #### © 2024 All Right Reserved, Designed By [Charmie Weerapperuma](https://github.com/charmiesw)
 
 </div>
