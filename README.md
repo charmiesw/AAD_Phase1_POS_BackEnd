@@ -149,7 +149,7 @@ This documentation provides interactive access to the following APIs and Refer t
 You can reffer to the json formats of the postman APIs as (src/main/resources/postman)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/charmiesw/AAD_Phase1_POS_BackEnd/blob/main/LICENSE) file for details.
 
 <div align="center">
 
