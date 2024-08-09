@@ -133,12 +133,12 @@ Once the back-end application is running, users can seamlessly interact with the
 - Maven : Build automation and project management tool. (Version 4.0.0)
 
 ### Accessing the API
-The API will be available at `http://localhost:8080/`.
+The API will be available at `http://localhost:8080/`
 
 ## API Documentation
-For detailed API documentation, please refer to the project’s Swagger UI available .
+For detailed API documentation, please refer to the project’s Swagger UI available.
 
-This documentation provides interactive access to the following APIs and Refer to the project Documentations:
+This documentation provides interactive access to the following APIs and Refer to the project Documentations :
 
 - **Customer API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZm7]
 - **Item API documentation URL**  [https://documenter.getpostman.com/view/35385905/2sA3rxrZm1]
