@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "73c8e5a3-c2a1-44a5-84ea-8d79e4265792",
+		"name": "ORDER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35386294"
+	},
+	"item": [
+		{
+			"name": "SaveOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"order_id\" : \"P001\",\r\n    \"date\" : \"2024-08-05\",\r\n    \"cus_id\" : \"C001\",\r\n    \"total\" : 1500,\r\n    \"order_list\" : [\r\n        {\r\n            \"order_id\" : \"P001\",\r\n            \"item_code\" : \"I001\",\r\n            \"qty\" : 2,\r\n            \"unit_price\" : 750\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrder",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/order?function=getById&order_id=P001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"order"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getById"
+						},
+						{
+							"key": "order_id",
+							"value": "P001"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

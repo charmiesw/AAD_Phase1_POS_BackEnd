@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "2cb2cf26-1bc9-41d3-9d4a-845f76b18931",
+		"name": "ORDER DETAILS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35386294"
+	},
+	"item": [
+		{
+			"name": "GetOrderDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/orderDetails?function=getById&order_id=P001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"orderDetails"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getById"
+						},
+						{
+							"key": "order_id",
+							"value": "P001"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
