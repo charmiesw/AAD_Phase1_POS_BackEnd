@@ -3,11 +3,15 @@
 ## Overview
 The POS System Backend is a comprehensive RESTful API built to efficiently support the various functionalities of a Point of Sale (POS) system. This backend service plays a crucial role in handling diverse aspects of the POS system, including:
 
+
 - **Customer Data Management**: It allows for the creation, retrieval, updating, and deletion of customer profiles and information, ensuring that all customer interactions and transactions are accurately recorded and managed.
+  
 
 - **Item Data Management**: This feature includes managing product details, such as item codes, names, quantities, and prices. The backend supports operations for adding new items, updating existing item details, and removing items from the system.
 
+
 - **Order Processing**: The API facilitates the entire order lifecycle from initiation to completion. This includes processing sales transactions, tracking order statuses, and managing payment information.
+
 
 Overall, the POS System Backend ensures seamless integration and operation of the POS system, enabling businesses to manage their sales, inventory, and customer interactions effectively through a set of robust API endpoints.
 
@@ -22,13 +26,18 @@ Overall, the POS System Backend ensures seamless integration and operation of th
 - [License](#license)
   
 ## Key Features
+
 - **Customer Record Management**: Efficiently handles the creation, retrieval, updating, and deletion of customer profiles. This feature ensures that customer information is accurately maintained and easily accessible for personalized service and transaction history.
+
 
 - **Order Processing and Inventory Management**: Manages the complete order lifecycle, from order initiation to completion. It tracks sales transactions, updates inventory levels in real-time, and supports inventory management tasks to ensure optimal stock levels.
 
+
 - **Real-Time Item Quantity Updates**: Provides immediate updates on item quantities as sales occur or inventory is adjusted. This feature helps in maintaining accurate stock counts and prevents discrepancies between physical and system inventory.
 
+
 - **Discount Application and Total Calculations**: Allows for the application of discounts to orders and performs precise calculations of totals, including tax and final amount. This ensures that pricing adjustments are accurately reflected in transaction totals.
+
 
 - **Secure Endpoints with Authentication**: Ensures that all API endpoints are protected by robust authentication mechanisms. This feature safeguards sensitive data and system operations by allowing access only to authorized users, thereby enhancing overall system security.
 
