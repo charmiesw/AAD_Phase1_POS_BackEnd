@@ -14,10 +14,11 @@ The POS System Backend is a RESTful API designed to support the operations of a 
 - [Technology Stack](#technology-stack)
 - [Setup Instructions](#setup-instructions)
 - [How to Use](#how-to-use)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
 - [API References](#api-references)
 - [License](#license)
-- [Contact Information](#contact-information)
-
+  
 ## Key Features
 - Customer record management
 - Order processing and inventory management
@@ -74,7 +75,7 @@ The POS System Backend is a RESTful API designed to support the operations of a 
     - Copy the generated WAR file from the `target` directory to the Tomcat `webapps` directory.
     - Restart Tomcat.
 
-## Usage
+## How To Use
 ### Running the Server
 After installation, run the server by starting Tomcat.
 
@@ -135,7 +136,7 @@ Once the back-end application is running, users can seamlessly interact with the
 ### Accessing the API
 The API will be available at `http://localhost:8080/`
 
-## API Documentation
+## API References
 For detailed API documentation, please refer to the project’s Swagger UI available.
 
 This documentation provides interactive access to the following APIs and Refer to the project Documentations :
