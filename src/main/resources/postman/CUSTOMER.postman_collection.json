@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "3f7e6c2b-1dc1-4a0f-b756-5ea994019893",
+		"name": "CUSTOMER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35386294"
+	},
+	"item": [
+		{
+			"name": "RegisterCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : \"C004\",\r\n    \"name\" : \"Kaveesha\",\r\n    \"address\" : \"Matara\",\r\n    \"contact\" : 771234567\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/customer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCustomer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Charmie\",\r\n    \"address\" : \"Galle\",\r\n    \"contact\" : \"0771234568\",\r\n    \"id\" : \"C002\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/customer?id=C002&name=Charmie&address=Galle&contact=0771234568",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "C002"
+						},
+						{
+							"key": "name",
+							"value": "Charmie"
+						},
+						{
+							"key": "address",
+							"value": "Galle"
+						},
+						{
+							"key": "contact",
+							"value": "0771234568"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/customer?id=C003",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "C003"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/customer?function=getById&id=C002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"customer"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getById"
+						},
+						{
+							"key": "id",
+							"value": "C002"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
