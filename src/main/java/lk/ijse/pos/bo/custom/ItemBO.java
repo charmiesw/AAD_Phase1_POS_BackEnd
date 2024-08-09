@@ -1,0 +1,20 @@
+package lk.ijse.pos.bo.custom;
+
+import lk.ijse.pos.bo.SuperBO;
+import lk.ijse.pos.dto.ItemDTO;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public interface ItemBO extends SuperBO {
+    boolean saveItem(Connection connection, ItemDTO itemDTO) throws SQLException;
+
+    boolean updateItem(Connection connection, ItemDTO itemDTO) throws SQLException;
+
+    ArrayList<ItemDTO> getAllItems(Connection connection) throws SQLException;
+
+    ItemDTO getItemByCode(Connection connection, String id) throws SQLException;
+
+    boolean deleteItem(Connection connection, String id) throws SQLException;
+}

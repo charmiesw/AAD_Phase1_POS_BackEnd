@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "159f506c-7897-4139-b4e1-b6a00524dbbe",
+		"name": "ITEM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35386294"
+	},
+	"item": [
+		{
+			"name": "RegisterItem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"I002\",\r\n    \"name\": \"Mocha\",\r\n    \"price\": 950.00,\r\n    \"qty\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/item",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"item"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "I001",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "Cappuccino",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "750.00",
+							"disabled": true
+						},
+						{
+							"key": "qty",
+							"value": "20",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateItem",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": \"I001\",\r\n    \"name\": \"Cappuccino\",\r\n    \"price\": \"850.00\",\r\n    \"qty\": \"30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/item?code=I001&name=Cappuccino&price=850.00&qty=30",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"item"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "I001"
+						},
+						{
+							"key": "name",
+							"value": "Cappuccino"
+						},
+						{
+							"key": "price",
+							"value": "850.00"
+						},
+						{
+							"key": "qty",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteItem",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/item?code=I001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"item"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "I001"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetItem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/POS_BackEnd_AAD/item?function=getByCode&code=I002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"POS_BackEnd_AAD",
+						"item"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getByCode"
+						},
+						{
+							"key": "code",
+							"value": "I002"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
